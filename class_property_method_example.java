@@ -102,7 +102,7 @@ public class FirstClass {
 		
 		uni_1.io_university_info(uni_1.name, uni_1.department, uni_1.years);
 		
-    System.exit(0);
+    		System.exit(0);
 	}
 
 }
