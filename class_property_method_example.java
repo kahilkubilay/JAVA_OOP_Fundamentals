@@ -51,7 +51,7 @@ class university{
 	
 }
 
-public class FirstClass {
+public class OOP_examples {
 
 	public static void main(String[] args) {
 		
