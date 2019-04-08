@@ -1,0 +1,76 @@
+package birgörselikodlamak;
+
+import java.util.Arrays;
+
+/**
+ *
+ * @author mefisto
+ */
+public class BirGörseliKodlamak {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO::Bir görseli kodlamak
+        
+        Point nokta1 = new Point();
+        Point nokta2 = new Point();
+        
+        System.out.println("x noktası: " + nokta2.getX() +
+                           "\ny noktası: " + nokta2.getY());
+        
+        Point nokta3 = new Point(12, 5);
+        
+        System.out.println("x noktası: " + nokta3.getX() +
+                           "\ny noktası: " + nokta3.getY());
+        
+        Point nokta4 = new Point(6, 8);
+        
+        System.out.println("x noktası: " + nokta4.getX() +
+                           "\ny noktası: " + nokta4.getY());
+        
+        Point nokta5 = new Point();
+        
+        nokta5.setX(10);
+        nokta5.setY(9);
+        
+        System.out.println("x noktası: " + nokta5.getX() +
+                           "\ny noktası: " + nokta5.getY());
+        
+        
+        Point nokta6 = new Point(6, 9);
+        
+        System.out.println(nokta6.toString());
+        
+        
+        Point nokta7 = new Point(5, 7);
+        
+        System.out.println(Arrays.toString(nokta7.getXY()));
+        
+        
+        Point nokta8 = new Point(3,5);
+        
+        System.out.println(Arrays.toString(nokta8.getXY()));
+        
+        nokta8.setXY(4, 6);
+        
+        System.out.println(Arrays.toString(nokta8.getXY()));
+        
+        
+        Point nokta9 = new Point(4,2);
+        
+        System.out.println(nokta9.distance(8,5));
+        
+        Point nokta10 = new Point(4,2);
+        
+        System.out.println(nokta10.distance(new Point(8,5)));
+        
+        
+        Point nokta11 = new Point(4,2);
+        
+        System.out.println(nokta11.distance());
+        
+    }
+    
+}
